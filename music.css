@@ -24,7 +24,7 @@
   background-color: rgba(0,0,0,0.3);
   list-style-image: none;
 }
-.music-navlink {
+.music-link {
   display: contents;
 }
 .music-image {
@@ -102,7 +102,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.music-link {
+.music-link1 {
   display: contents;
 }
 .music-icon {
@@ -112,7 +112,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link1 {
+.music-link2 {
   display: contents;
 }
 .music-icon2 {
@@ -122,7 +122,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link2 {
+.music-link3 {
   display: contents;
 }
 .music-icon4 {

@@ -24,7 +24,7 @@
   background-color: rgba(0,0,0,0.3);
   list-style-image: none;
 }
-.index-navlink {
+.index-link {
   display: contents;
 }
 .index-image {
@@ -32,7 +32,7 @@
   height: 55px;
   text-decoration: none;
 }
-.index-link {
+.index-link1 {
   display: contents;
 }
 .index-image1 {
@@ -84,7 +84,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.index-link1 {
+.index-link2 {
   display: contents;
 }
 .index-icon {
@@ -94,7 +94,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.index-link2 {
+.index-link3 {
   display: contents;
 }
 .index-icon2 {
@@ -104,7 +104,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.index-link3 {
+.index-link4 {
   display: contents;
 }
 .index-icon4 {
