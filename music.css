@@ -51,7 +51,7 @@
   }
 }
 
-.home-container {
+.music-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -63,7 +63,7 @@
   list-style-image: none;
   list-style-position: outside;
 }
-.home-header {
+.music-header {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -77,21 +77,21 @@
   background-color: rgba(0,0,0,0.3);
   list-style-image: none;
 }
-.home-image {
+.music-image {
   width: 267px;
   height: 55px;
 }
-.home-accordion-header {
+.music-accordion-header {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.home-icon {
+.music-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: none;
 }
-.home-accordion-content {
+.music-accordion-content {
   display: flex;
   overflow: hidden;
   max-height: 0;
@@ -99,29 +99,12 @@
   align-items: center;
   flex-direction: column;
 }
-.home-nav {
+.music-nav {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.home-navlink {
-  display: contents;
-}
-.home-image1 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: var(--dl-size-size-xxlarge);
-  bottom: 0px;
-  height: var(--dl-size-size-xxlarge);
-  margin: auto;
-  position: absolute;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.21);
-  object-fit: cover;
-  border-radius: 15px;
-  text-decoration: none;
-}
-.home-footer {
+.music-footer {
   left: 0px;
   width: 100%;
   bottom: 0px;
@@ -138,7 +121,7 @@
   justify-content: space-between;
   background-color: #363636;
 }
-.home-container1 {
+.music-container1 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -146,72 +129,72 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text {
+.music-text {
   color: var(--dl-color-gray-700);
   font-size: 12px;
 }
-.home-icon-group {
+.music-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.home-icon2 {
+.music-icon2 {
   fill: var(--dl-color-gray-700);
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon4 {
+.music-icon4 {
   fill: var(--dl-color-gray-700);
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon6 {
+.music-icon6 {
   fill: var(--dl-color-gray-700);
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
 @media(max-width: 991px) {
-  .home-nav {
+  .music-nav {
     padding-top: 16px;
   }
 }
 @media(max-width: 767px) {
-  .home-header {
+  .music-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-icon {
+  .music-icon {
     display: flex;
   }
-  .home-footer {
+  .music-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-container1 {
+  .music-container1 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text {
+  .music-text {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
-  .home-header {
+  .music-header {
     padding: var(--dl-space-space-unit);
   }
-  .home-footer {
+  .music-footer {
     padding: var(--dl-space-space-unit);
   }
-  .home-container1 {
+  .music-container1 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text {
+  .music-text {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
