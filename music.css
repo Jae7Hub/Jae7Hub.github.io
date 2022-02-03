@@ -45,28 +45,6 @@
   object-fit: cover;
   border-radius: 15px;
 }
-.music-image2 {
-  top: 0px;
-  right: 250px;
-  width: var(--dl-size-size-xxlarge);
-  bottom: 0px;
-  height: var(--dl-size-size-xxlarge);
-  margin: auto;
-  position: absolute;
-  object-fit: cover;
-  border-radius: 15px;
-}
-.music-image3 {
-  top: 0px;
-  left: 250px;
-  width: var(--dl-size-size-xxlarge);
-  bottom: 0px;
-  height: var(--dl-size-size-xxlarge);
-  margin: auto;
-  position: absolute;
-  object-fit: cover;
-  border-radius: 15px;
-}
 .music-footer {
   left: 0px;
   width: 100%;
