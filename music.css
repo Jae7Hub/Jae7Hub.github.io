@@ -41,6 +41,7 @@
   height: var(--dl-size-size-xxlarge);
   margin: auto;
   position: absolute;
+  align-self: stretch;
   object-fit: cover;
   border-radius: 15px;
 }
