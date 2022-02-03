@@ -3,17 +3,16 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: stretch;
+  align-items: center;
   flex-direction: column;
   list-style-type: disc;
-  background-image: radial-gradient(circle at center top, rgb(255, 255, 255) 1.00%,rgb(130, 130, 130) 100.00%,rgb(130, 130, 130) 100.00%);
+  background-color: #4a47ff;
   list-style-image: none;
   list-style-position: outside;
 }
 .music-header {
   width: 100%;
   display: flex;
-  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   min-width: 100%;
   align-items: center;
@@ -25,7 +24,7 @@
   background-color: rgba(0,0,0,0.3);
   list-style-image: none;
 }
-.music-link {
+.music-navlink {
   display: contents;
 }
 .music-image {
@@ -37,14 +36,35 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 100%;
+  width: var(--dl-size-size-xxlarge);
   bottom: 0px;
-  height: 100%;
+  height: var(--dl-size-size-xxlarge);
+  margin: auto;
   position: absolute;
-  align-self: stretch;
   object-fit: cover;
-  padding-top: 120px;
-  list-style-image: none;
+  border-radius: 15px;
+}
+.music-image2 {
+  top: 0px;
+  right: 250px;
+  width: var(--dl-size-size-xxlarge);
+  bottom: 0px;
+  height: var(--dl-size-size-xxlarge);
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.music-image3 {
+  top: 0px;
+  left: 250px;
+  width: var(--dl-size-size-xxlarge);
+  bottom: 0px;
+  height: var(--dl-size-size-xxlarge);
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 15px;
 }
 .music-footer {
   left: 0px;
@@ -81,7 +101,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.music-link1 {
+.music-link {
   display: contents;
 }
 .music-icon {
@@ -91,7 +111,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link2 {
+.music-link1 {
   display: contents;
 }
 .music-icon2 {
@@ -101,7 +121,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link3 {
+.music-link2 {
   display: contents;
 }
 .music-icon4 {
