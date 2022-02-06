@@ -1,8 +1,6 @@
 # Jae was here... ;)
 
 User-agent: *
-Disallow: /images/
-Disallow: /css/
-Disallow: /js/
+Disallow:
 
 Sitemap: https://www.heptagonent.com/sitemap.xml
