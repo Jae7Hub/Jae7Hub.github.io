@@ -11,14 +11,6 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links-text {
-  color: var(--dl-color-gray-700);
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text1 {
-  color: var(--dl-color-gray-700);
-  margin-left: var(--dl-space-space-twounits);
-}
 
 
 
@@ -42,14 +34,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-link1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -221,10 +205,11 @@
   font-weight: 600;
   margin-left: var(--dl-space-space-halfunit);
 }
-.music-text7 {
-  color: var(--dl-color-gray-700);
+.music-link1 {
+  color: var(--dl-color-gray-black);
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
 }
 .music-footer {
   width: 100%;
@@ -236,7 +221,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.music-text8 {
+.music-text7 {
   font-size: 12px;
 }
 .music-icon-group {
@@ -245,7 +230,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.music-link1 {
+.music-link2 {
   display: contents;
 }
 .music-icon2 {
@@ -254,7 +239,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link2 {
+.music-link3 {
   display: contents;
 }
 .music-icon4 {
@@ -263,7 +248,7 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.music-link3 {
+.music-link4 {
   display: contents;
 }
 .music-icon6 {
@@ -313,7 +298,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .music-text8 {
+  .music-text7 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -343,14 +328,14 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  .music-text7 {
+  .music-link1 {
     width: auto;
   }
   .music-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .music-text8 {
+  .music-text7 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

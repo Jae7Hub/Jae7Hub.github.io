@@ -11,14 +11,6 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links-text {
-  color: var(--dl-color-gray-700);
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text1 {
-  color: var(--dl-color-gray-700);
-  margin-left: var(--dl-space-space-twounits);
-}
 
 
 
@@ -42,14 +34,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-link1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
