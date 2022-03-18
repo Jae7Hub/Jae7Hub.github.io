@@ -172,3 +172,9 @@
     height: 350px;
   }
 }
+@media(max-width: 479px) {
+  .discord-text2 {
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+}
