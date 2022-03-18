@@ -488,20 +488,19 @@
     flex-direction: column;
   }
   .jae-svn-link {
-    width: 125;
-    height: 50;
+    width: 125px;
+    height: 50px;
     text-align: center;
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
   .jae-svn-link1 {
-    width: 125;
-    height: 50;
-    margin-top: var(--dl-space-space-unit);
+	width: 125px;
+    height: 50px;
     text-align: center;
-    margin-left: 0px;
+	margin-left: 0px;
+	margin-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
-    margin-bottom: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-halfunit);
   }
   .jae-svn-image1 {
